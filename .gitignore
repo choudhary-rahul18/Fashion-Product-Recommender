@@ -1,0 +1,12 @@
+cat <<EOF > .gitignore
+.venv/
+venv/
+images/
+env/
+__pycache__/
+.DS_Store
+processed_images_clean/
+*.pkl
+*.zip
+*.ipynb_checkpoints/
+EOF
