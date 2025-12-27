@@ -29,12 +29,13 @@ Retrieval: The system calculates the distance between the query image's vector a
 1. Data Source
 
 This project is built using the Myntra Fashion Product Dataset: Download Dataset from Kaggle
+https://www.kaggle.com/datasets/hiteshsuthar101/myntra-fashion-product-dataset/data
 
 2. Manual Folder Configuration
 
 Folder Name: You must manually create a folder named images in the root directory.
 
-Demo vs. Production: While this repo contains ~70 images for demo purposes, for accurate and diverse recommendations, you should download the dataset above and ensure the images folder contains at least 5,000+ items.
+Demo: While this repo contains ~70 images for demo purposes, for accurate and diverse recommendations, you should download the dataset above and ensure the images folder contains at least 5,000+ items.
 
 ### 🧠 What I Learned
 Feature Mapping: Understanding how Deep Convolutional Neural Networks (CNNs) translate visual pixels into high-dimensional mathematical space.
