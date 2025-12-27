@@ -26,7 +26,7 @@ Algorithm: K-Nearest Neighbors (KNN) using the Cosine Similarity metric.
 Retrieval: The system calculates the distance between the query image's vector and all stored vectors in feature_vectors.pkl to return the top matches.
 
 ### 📊 Dataset & Setup
-1. Data Source
+1. *Data Source*
 
 This project is built using the Myntra Fashion Product Dataset: Download Dataset from Kaggle
 https://www.kaggle.com/datasets/hiteshsuthar101/myntra-fashion-product-dataset/data
@@ -47,6 +47,7 @@ Image Standardization: The critical role of background removal and aspect-ratio 
 Pipeline Efficiency: Saving embeddings in a .pkl file to avoid re-running heavy computations every time the app is launched.
 
 ### ⚙️ How to Run
+```
 Install Dependencies:
 
 Bash
@@ -59,6 +60,7 @@ Generate Embeddings: Run the fashion_recommendation.ipynb notebook to process im
 
 Bash
 streamlit run app.py
+```
 
 ### 🛠️ Stack
 Language: Python
